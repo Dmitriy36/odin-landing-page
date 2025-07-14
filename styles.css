@@ -46,14 +46,42 @@ body{
 
 .section2-container {
     border:3px solid blue;
+    justify-content:center;
 }
 .section2-container div {
     display:flex;
     justify-content:center;
-    text-align:center;
-    
+    text-align:center;  
+}
+
+.section3-container {
+
+    border:3px solid blue;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
 
 }
+
+.section3-container div {
+    width:65%;
+}
+
+
+.section3-container .signature {
+    margin-top:0;
+    text-align:right;
+    font-weight:bold;
+    border:1px solid rgb(203, 240, 14);
+    color:red;
+
+}
+
+.section3-container .quote {
+    text-align:center;
+    border:1px solid rgb(203, 240, 14);
+}
+
 .level-two{
     display:flex;
     flex-direction:row;
@@ -70,27 +98,32 @@ body{
 img{
     float: center;
     width:  200px;
-    height: 200px;
+    height: auto;
     object-fit: cover;
     border:1px solid black;
     margin:20px;
-    margin-bottom:0;
 }
 
-.image-block{
+.image-block {
     display:flex;
     flex-direction:column;
     width:min-content;
     border:1px solid green;
-    margin-bottom:70px;
 }
 
-.subtext-block {
+.image-block div {
+    width:200px;
+    margin:20px;
+}
+
+.image-block p {
+    width:200px;
     word-wrap:break-word;
+    border:1px solid red;
 }
 
 .spacer{
-    width:100px;
+    width:200px;
     border:1px solid blue;
 }
 
