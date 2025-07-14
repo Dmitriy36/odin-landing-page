@@ -73,7 +73,7 @@ body{
 
 .hero-text {
     font-size:18px;
-    font-color:#e5e7eb;
+    color:#e5e7eb;
 }
 
 .level-two {
@@ -88,10 +88,6 @@ body{
 #left {    
     /* border:1px solid blue; */
     width: 50%;
-}
-
-#right {
-    /* border:1px solid blue;     */
 }
 
 #right img {
@@ -222,11 +218,13 @@ img{
 }
 
 .section5-container {
+
     display:flex;
     /* border:1px solid rgb(4, 185, 245); */
     justify-content:center;
     align-items:center;
     padding:50px;
+    color:#1f2937;
 }
 
 button {
